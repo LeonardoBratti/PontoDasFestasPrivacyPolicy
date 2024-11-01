@@ -8,12 +8,22 @@
         body {
             font-family: Arial, sans-serif;
             margin: 20px;
-        }
-        h1 {
+            background-color: #f9f9f9;
             color: #333;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        h1, h2 {
+            color: #0056b3;
         }
         p {
             margin-bottom: 10px;
+            line-height: 1.6;
         }
         ul {
             margin-bottom: 20px;
@@ -22,24 +32,37 @@
             max-width: 200px;
             margin-bottom: 20px;
         }
+        .contact-info {
+            font-style: italic;
+        }
+        a {
+            color: #0056b3;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
     </style>
 </head>
 <body>
-    <h1>Solicitação de Exclusão de Conta e Dados</h1>
-    <p>Se você deseja solicitar a exclusão da sua conta e dados do aplicativo <strong>Ponto das Festas</strong>, siga os passos abaixo:</p>
-    <ul>
-        <li>Envie um e-mail para <a href="mailto:pontodafestaml@gmail.com">pontodafestaml@gmail.com</a> com o assunto "Solicitação de Exclusão de Conta".</li>
-        <li>No e-mail, inclua os detalhes da sua conta e qualquer informação relevante para nos ajudar a identificar sua conta.</li>
-        <li> De preferencia utilize o email em que a conta foi cadastrada. 
-        <li>Processaremos sua solicitação e confirmaremos a exclusão da sua conta e dados dentro de 30 dias.</li>
-    </ul>
-    <h2>Informações sobre Exclusão de Dados</h2>
-    <p>Quando você solicita a exclusão da sua conta, os seguintes tipos de dados serão excluídos:</p>
-    <ul>
-        <li>Informações pessoais (por exemplo, nome, endereço de e-mail)</li>
-        <li>Detalhes e preferências da conta</li>
-        <li>Dados de uso e registros de atividades</li>
-    </ul>
-    <p>Alguns dados podem ser retidos por um período limitado para cumprir obrigações legais ou para fins comerciais legítimos. Se você tiver alguma dúvida ou preocupação, entre em contato com nossa equipe de suporte em <a href="mailto:support@pontodasfestas.com">support@pontodasfestas.com</a>.</p>
+    <div class="container">
+        <img src="pontologo2.png" alt="Ponto das Festas Logo" class="logo">
+        <h1>Solicitação de Exclusão de Conta e Dados</h1>
+        <p>Se você deseja solicitar a exclusão da sua conta e dados do aplicativo <strong>Ponto das Festas</strong>, siga os passos abaixo:</p>
+        <ul>
+            <li>Envie um e-mail para <a href="mailto:pontodafestaml@gmail.com">pontodafestaml@gmail.com</a> com o assunto "Solicitação de Exclusão de Conta".</li>
+            <li>No e-mail, inclua os detalhes da sua conta e qualquer informação relevante para nos ajudar a identificar sua conta.</li>
+            <li>De preferência, utilize o e-mail em que a conta foi cadastrada.</li>
+            <li>Processaremos sua solicitação e confirmaremos a exclusão da sua conta e dados dentro de 30 dias.</li>
+        </ul>
+        <h2>Informações sobre Exclusão de Dados</h2>
+        <p>Quando você solicita a exclusão da sua conta, os seguintes tipos de dados serão excluídos:</p>
+        <ul>
+            <li>Informações pessoais (por exemplo, nome, endereço de e-mail)</li>
+            <li>Detalhes e preferências da conta</li>
+            <li>Dados de uso e registros de atividades</li>
+        </ul>
+        <p class="contact-info">Alguns dados podem ser retidos por um período limitado para cumprir obrigações legais ou para fins comerciais legítimos. Se você tiver alguma dúvida ou preocupação, entre em contato conosco.</p>
+    </div>
 </body>
 </html>
